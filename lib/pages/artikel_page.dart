@@ -15,18 +15,21 @@ class ArtikelPage extends StatelessWidget {
       
           Column(
             children: [
+              
               SizedBox(
-                height: 10,
+                height: 20,
               ),
        
               SizedBox(
-                height: 10,
+                height: 20,
               ),
               CarouselArtikel(),
               SizedBox(
-                height: 10,
+                height: 20,
               ),
-              Expanded(
+            
+              Container(
+                height: 350,
                 child: ListView(padding: EdgeInsets.all(15), children: [
                   ArtikelData(),
                 ]),
